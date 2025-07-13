@@ -1,0 +1,86 @@
+/* Healthcare Background Styles - Orange Theme */
+
+.healthcare-hero-bg {
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.9), rgba(254, 215, 170, 0.8)), 
+              url('./hospital-interior.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.healthcare-section-bg {
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), 
+              url('./hospital-corridor.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.medical-equipment-bg {
+  background: linear-gradient(rgba(249, 115, 22, 0.1), rgba(254, 215, 170, 0.1)), 
+              url('./medical-equipment.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.healthcare-team-bg {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+              url('./healthcare-team.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.healthcare-overlay {
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.05), rgba(254, 215, 170, 0.05));
+}
+
+.medical-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(249, 115, 22, 0.1);
+}
+
+.healthcare-gradient {
+  background: linear-gradient(135deg, #f97316, #fed7aa);
+}
+
+.medical-shadow {
+  box-shadow: 0 10px 25px rgba(249, 115, 22, 0.1);
+}
+
+/* Orange accent colors for buttons and highlights */
+.orange-primary {
+  background-color: #f97316;
+  color: white;
+}
+
+.orange-primary:hover {
+  background-color: #ea580c;
+}
+
+.orange-accent {
+  color: #f97316;
+}
+
+.orange-border {
+  border-color: #f97316;
+}
+
+.orange-bg-light {
+  background-color: #fed7aa;
+}
+
+.orange-text {
+  color: #f97316;
+}
+
+/* Professional orange gradient for headers */
+.professional-orange-gradient {
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #fed7aa 100%);
+}
+
+/* Subtle orange overlay for sections */
+.orange-overlay {
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.03), rgba(254, 215, 170, 0.03));
+}
+
+
